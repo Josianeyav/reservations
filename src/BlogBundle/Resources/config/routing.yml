@@ -1,0 +1,5 @@
+# src/OC/PlatformBundle/Resources/config/routing.yml
+
+home:
+    path:      /
+    defaults: { _controller: BlogBundle:Default:index }
